@@ -19,11 +19,12 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        void Start()
-        {
-            userData = new UserData("YoungMin", 150000, 200000);
-        }
     }
-    
+
+    void Start()
+        {
+            
+        }
 }
+    
+
