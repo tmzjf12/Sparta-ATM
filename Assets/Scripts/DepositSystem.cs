@@ -53,6 +53,8 @@ public class DepositSystem : MonoBehaviour
          userData.userCash -= amount;
          userData.userBalance += amount;
          
+         GameManager.instance.SaveUserData();
+         
       }
 
       UpdateDisplay();

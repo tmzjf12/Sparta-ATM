@@ -53,6 +53,8 @@ public class WithdrawSystem : MonoBehaviour
          userData.userBalance -= amount;
          userData.userCash += amount;
          
+         GameManager.instance.SaveUserData();
+         
       }
 
       UpdateDisplay();
